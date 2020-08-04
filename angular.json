@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "router-outlet-demo"
+    }
+  },
+  "defaultProject": "router-outlet-demo",
+  "cli": {
+    "analytics": false
+  }
 }

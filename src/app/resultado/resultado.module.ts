@@ -1,10 +1,10 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 
 import { ResultadoComponent } from './resultado.component';
 import { TablaDosComponent } from './tabla-dos/tabla-dos.component';
 import { TablaUnoComponent } from './tabla-uno/tabla-uno.component';
+import { ResultadoRoutingModule } from './resltado.routing';
 
 @NgModule({
   declarations: [
@@ -13,8 +13,8 @@ import { TablaUnoComponent } from './tabla-uno/tabla-uno.component';
     TablaDosComponent
   ],
   imports: [
-    BrowserModule
+    ResultadoRoutingModule
   ],
   providers: []
 })
-export class AppModule { }
+export class ResultadoModule { }
